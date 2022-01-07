@@ -35,7 +35,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Authors
 
-- [@Julianeme](https://github.com/Julianeme)
+- Github: [@Julianeme](https://github.com/Julianeme)
+- Twirter: [@AJulian16](https://twitter.com/AJulian16)
+- [Linkedin](https://www.linkedin.com/in/julian-tabares/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
