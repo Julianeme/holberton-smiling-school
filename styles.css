@@ -1,0 +1,324 @@
+/* SUMMARY
+    1. GLOBAL
+    2. LAYOUT
+    3. SECTION
+    4. CARD
+*/
+
+/*** 1. GLOBAL ***/
+
+/* Reset / Normalize
+   ============================= */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+main {
+	display: block
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible
+}
+
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+
+a {
+	background-color: transparent
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted
+}
+
+b, strong {
+	font-weight: bolder
+}
+
+code, kbd, samp {
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+
+small {
+	font-size: 80%
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+
+sub {
+	bottom: -.25em
+}
+
+sup {
+	top: -.5em
+}
+
+img {
+	border-style: none
+}
+
+button, input, optgroup, select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0
+}
+
+button, input {
+	overflow: visible
+}
+
+button, select {
+	text-transform: none
+}
+
+[type=button], [type=reset], [type=submit], button {
+	-webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+	border-style: none;
+	padding: 0
+}
+
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+	outline: 1px dotted ButtonText
+}
+
+fieldset {
+	padding: .35em .75em .625em
+}
+
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal
+}
+
+progress {
+	vertical-align: baseline
+}
+
+textarea {
+	overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+	box-sizing: border-box;
+	padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+	height: auto
+}
+
+[type=search] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit
+}
+
+details {
+	display: block
+}
+
+summary {
+	display: list-item
+}
+
+template {
+	display: none
+}
+
+[hidden] {
+	display: none
+}
+
+/* Variables
+   ============================= */
+
+:root {
+
+
+	/** BUTTON **/
+
+
+	/**FONTS **/
+	--font-size-large: 2rem;
+	--font-size-small: 1em;
+	--font-size-medium: 1.5rem;
+	--button-font-size: var(--font-size-small);
+	--font-title: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+	/** HEADER **/
+	--header-padding: 4rem 0 0;
+
+	/** COLORS **/
+
+	--color-white: #ffffff;
+	--color-primary: #D73953;
+
+	/** MOTION **/
+}
+
+/* Base
+      ============================= */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+/* Navigation
+      ============================= */
+
+#navbarSupportedContent>ul>li {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+}
+
+/* Hero Section
+	  ============================= */
+
+.big-title {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 120px;
+	/* identical to box height */
+	text-align: center;
+	color: #FFFFFF;
+	max-height: fit-content;
+	margin: 5rem 0 0 0;
+}
+
+.flex-row .list-group {
+	list-style: none;
+}
+
+.list-group .nav-link {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.btn {
+	background: #C271FF;
+	border-radius: 22px;
+	color: #FFFFFF;
+}
+
+
+.card-group .card-img-top {
+	width: 10vw;
+}
+
+.fixed-bottom {
+	height: 40vh;
+	width: 100%;
+}
+
+.card.bg-transparent img {
+	max-width: 150px;
+}
+
+.row.d-flex.justify-content-around {
+	max-width: 1000px;
+	height: fit-content;
+}
+
+.d-flex.justify-content-center.my-3 {
+	height: fit-content;
+}
+
+.fake-nav {
+	max-height: 5vh;
+}
+
+body>header>div>nav {
+	height: 10vh;
+}
+
+body>header>div>section>div.row.d-flex.justify-content-center.align-items-center.my-3.fake-nav {
+	display: flex;
+	flex-direction: row;
+}
+
+/**learn from the pros **/
+body>header>div>section>div.row.d-flex.justify-content-center.align-items-center.mx-auto>div.d-flex.justify-content-center.text-light.col-12 {
+	height: 15vh;
+}
+
+.learn {
+	color: #C271FF;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+body>header>div>section>div.row.d-flex.justify-content-center.align-items-center.mx-auto>div.d-flex.justify-content-center.align-items-center.text-light.col-12>h3 {
+	font-weight: lighter;
+}
+
+/*home photo cards*/
+body>header>div>section>div.row.d-flex.justify-content-center.align-items-center.mx-auto>div.text-light.row.justify-content-around {
+	width: 1440px;
+
+}
+
+.container {
+	height: fit-content;
+	padding-bottom: 10vh;
+}
+
+@media screen and (max-width: 576px) {
+	.big-title {
+		font-size: 61px;
+	}
+}
