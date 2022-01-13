@@ -244,7 +244,6 @@ html {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 20px;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -256,12 +255,8 @@ html {
 }
 
 
-.card-group .card-img-top {
-	width: 10vw;
-}
-
 .fixed-bottom {
-	height: 40vh;
+
 	width: 100%;
 }
 
@@ -271,16 +266,13 @@ html {
 
 .row.d-flex.justify-content-around {
 	max-width: 1000px;
-	height: fit-content;
+
 }
 
 .d-flex.justify-content-center.my-3 {
 	height: fit-content;
 }
 
-.fake-nav {
-	max-height: 5vh;
-}
 
 body>header>div>nav {
 	height: 10vh;
@@ -308,7 +300,7 @@ body>header>div>section>div.row.d-flex.justify-content-center.align-items-center
 
 /*home photo cards*/
 body>header>div>section>div.row.d-flex.justify-content-center.align-items-center.mx-auto>div.text-light.row.justify-content-around {
-	width: 1440px;
+	max-width: 1440px;
 
 }
 
@@ -317,8 +309,191 @@ body>header>div>section>div.row.d-flex.justify-content-center.align-items-center
 	padding-bottom: 10vh;
 }
 
-@media screen and (max-width: 576px) {
-	.big-title {
-		font-size: 61px;
+/* caroursel secion ----------------
+----------------------------------*/
+
+.carousel-section {
+	background-color: #C271FF;
+	min-height: 35vh;
+}
+
+
+/* carousel arrows and card container */
+.row.carousel-inner.container.py-3.w-100 {
+	min-height: 300px;
+}
+
+@media screen and (max-width: 480px) {
+	.col-sm-1.d-flex.justify-content-start {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
+
+	.info-carousel.col-sm-6.m-5.pt-5 {
+		padding-top: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.col-sm-1.d-flex.justify-content-start {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-width: 200px;
+	}
+
+	.info-carousel.col-sm-6.m-5.pt-5 {
+		padding-top: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		text-align: center;
+	}
+
+	.carousel-control-prev.comments,
+	.carousel-control-next.comments {
+		max-width: 30px;
+	}
+
+}
+
+.card-container {
+	background-color: white;
+}
+
+.image-container.d-flex.align-items-center.justify-content-center.-h-75 {
+	width: 160px;
+	max-width: 160px;
+}
+
+/* Most popular tutorials section -
+	  ============================= */
+
+.popular-tutorials {
+	height: fit-content;
+}
+
+.popular-tutorials .carouselExampleCaptions {
+	height: 30vh;
+}
+
+.score {
+	position: relative;
+}
+
+/* tutorials comments images positioning */
+#carouselExampleIndicators2>div>div>div>div:nth-child(1)>div>div>div.row.score>p,
+#carouselExampleIndicators2>div>div>div>div:nth-child(2)>div>div>div.row.score>p,
+#carouselExampleIndicators2>div>div>div>div:nth-child(3)>div>div>div.row.score>p,
+#carouselExampleIndicators2>div>div>div>div:nth-child(4)>div>div>div.row.score>p {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: fit-content;
+	padding-left: 3rem;
+	margin: auto;
+}
+
+
+#carouselExampleIndicators2>div>div>div>div:nth-child(1)>div>div>div.row.score>img,
+#carouselExampleIndicators2>div>div>div>div:nth-child(2)>div>div>div.row.score>img,
+#carouselExampleIndicators2>div>div>div>div:nth-child(3)>div>div>div.row.score>img,
+#carouselExampleIndicators2>div>div>div>div:nth-child(4)>div>div>div.row.score>img {
+	width: 15%;
+	margin-left: 2rem;
+}
+
+/* tutorials score comment */
+#carouselExampleIndicators2>div>div>div>div:nth-child(1)>div>div>p,
+#carouselExampleIndicators2>div>div>div>div:nth-child(2)>div>div>p,
+#carouselExampleIndicators2>div>div>div>div:nth-child(3)>div>div>p,
+#carouselExampleIndicators2>div>div>div>div:nth-child(4)>div>div>p {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+.learn.comments {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.carouselExampleIndicators2.comments-container {
+	min-height: 450px;
+}
+
+/* tumbnais and score container */
+
+.carousel.popular-tutorials.slide.p-5 {
+	max-width: 1128px;
+	display: block;
+	margin: auto;
+}
+
+
+/* Free membership section -
+	  ====================== */
+
+.membership-section {
+	height: fit-content;
+	background-color: #071629;
+}
+
+.membership-container.d-flex.flex-column.justify-content-between {
+	height: fit-content;
+}
+
+/* .membership-title {
+	min
+} */
+
+.membership-card-container {
+	height: fit-content;
+	width: 237px;
+	margin: auto;
+}
+
+/* Footer section -
+	  ====================== */
+
+.footer {
+	min-height: 0vh;
+	height: fit-content;
+	background-color: #071629;
+}
+
+.footer-container {
+	min-height: 15vh;
+	height: fit-content;
+	margin: auto;
+}
+
+
+/* Pricing section -
+	  ====================== */
+
+.pricing-title {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-size: 80px;
+	/* identical to box height */
+	text-align: center;
+	color: #FFFFFF;
+	max-height: fit-content;
+	margin: 5rem 0 0 0;
+}
+
+.pricing-section {
+	min-height: 200px;
 }
