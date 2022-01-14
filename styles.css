@@ -497,3 +497,34 @@ body>header>div>section>div.row.d-flex.justify-content-center.align-items-center
 .pricing-section {
 	min-height: 200px;
 }
+
+.monthly-fee-title {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+
+.icon {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: greenyellow;
+}
+
+.benefits-font {
+	font-size: 1.3rem;
+}
+
+.border-bottom.benefits {
+	border-color: rgb(21, 18, 53);
+	border-width: 1px;
+}
+
+.row.d-flex.justify-content-around.mx-auto {
+	max-width: 1128px;
+	margin: auto;
+}
