@@ -528,3 +528,11 @@ body>header>div>section>div.row.d-flex.justify-content-center.align-items-center
 	max-width: 1128px;
 	margin: auto;
 }
+
+/* FAQ section -
+	  ====================== */
+
+.faq-section-container {
+	min-height: 200px;
+	background-color: white;
+}
