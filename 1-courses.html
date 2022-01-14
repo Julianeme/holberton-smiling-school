@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Homepage - Headphones</title>
+    <meta name="description" content="Headphones product landpage">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body class="d-flex flex-column">
+    <header class="flex-row pricing-section border-0">
+      <div class="bg-image" style="
+            background-image: url('./images/pic_2.jpg');
+            height: fit-content;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;">
+        <nav class="navbar navbar-expand-md navbar-dark d-flex justify-content-around">
+          <div>
+            <a class="navbar-brand" href="#">
+              <img src="images/smile_off.png" width="30" height="30" class="d-inline-block align-top"
+                alt="Smile School face">
+              <img src="images/logo.png" width="130" class="d-inline-block align-top" alt="Smile School Logo">
+            </a>
+          </div>
+          <div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#">COURSES</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#">PRICING</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#">LOGIN</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!– Hero section –>
+        <section class="pricing-section-container">
+          <div class="m-auto pb-5">
+            <h1 class="text-center text-white font-weight-bold">&lsaquo;&lsaquo;Don't cry because it's over</h1>
+            <h1 class="text-center text-white font-weight-bold"><span class="learn ">Smile </span> because it happened&rsaquo;&rsaquo;.</h1>
+          </div>
+      </section>
+    </header>
+<!– Search filters seccion –>
+    <section class="searching-section-container">
+      <div class="searching-section-div ">
+        <div class="row filter-bar d-flex justify-content-center align-items-center my-auto px-auto filtering-fields py-5">
+          <!-- seach bar -->
+          <div class="col-10 col-md-3 col-sm-10 mx-1 p-4  search-fields">
+            <div class="filters">
+              <h4 class="text-white">KEYWORDS</h4>
+            </div>
+            <div class="input-group md-form form-sm form-1 px-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text purple lighten-3 search-bar" id="basic-text1"><i class="fas fa-search text-white"
+                  aria-hidden="true"></i>
+                  <svg class="icon icon-search">
+                    <use xlink:href="#icon-search"></use>
+                    <symbol id="icon-search" viewBox="0 0 32 32">
+                      <path
+                        d="M19.427 20.427c-1.39 0.99-3.090 1.573-4.927 1.573-4.694 0-8.5-3.806-8.5-8.5s3.806-8.5 8.5-8.5c4.694 0 8.5 3.806 8.5 8.5 0 1.837-0.583 3.537-1.573 4.927l5.585 5.585c0.55 0.55 0.546 1.431-0 1.976l-0.023 0.023c-0.544 0.544-1.431 0.546-1.976 0l-5.585-5.585zM14.5 20c3.59 0 6.5-2.91 6.5-6.5s-2.91-6.5-6.5-6.5c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5v0z">
+                      </path>
+                    </symbol>
+                  </svg>
+                </span>
+              </div>
+              <input class="form-control my-0 py-1 search-bar" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </div>
+          <!-- seach bar end -->
+          <!-- topic dropdown-->
+          <div class=" col-10 col-md-3 col-sm-5 mx-1 p-4 search-fields">
+            <div class="filters">
+              <h4 class="text-white">TOPIC</h4>
+            </div>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle rounded " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p class="h2 text-white-50">Novice</p>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Novice</a>
+                <a class="dropdown-item" href="#">Intermediate</a>
+                <a class="dropdown-item" href="#">Expert</a>
+              </div>
+            </div>
+          </div>
+          <!-- topic dropdown end-->
+          <!-- sort by dropdown -->
+            <div class="dropdown col-10 col-sm-5 col-md-3 mx-1 p-4 search-fields">
+              <div class="filters">
+                <h4 class="text-white">SORT BY</h4>
+              </div>
+              <button class="btn btn-secondary dropdown-toggle rounded" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <p class="h2 text-white-50">Most Popular</p>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Most Popular</a></li>
+                <li><a class="dropdown-item" href="#">Most Recent</a></li>
+                <li><a class="dropdown-item" href="#">Most Viewed</a></li>
+              </ul>
+            </div>
+            <!-- sort by dropdown end-->
+        </div>
+      </div>
+    </section>
+<!– xxxxxx section –>
+  <!– xxxx section –>
+    <!– Footer –>
+      <footer class="footer">
+      </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+  </body>
+</html>
+
+

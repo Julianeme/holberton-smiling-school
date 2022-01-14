@@ -539,3 +539,35 @@ body>header>div>section>div.row.d-flex.justify-content-center.align-items-center
 
 /*Courses section -
 	  ====================== */
+
+.searching-section-container {
+	background-color: #C271FF;
+	min-height: 15vh;
+}
+
+.searching-section-div {
+	min-height: 15vh;
+	max-height: fit-content;
+}
+
+.search-bar {
+	height: 5rem;
+	background-color: #cf92fd;
+	border: none
+}
+
+.filter-bar {
+	height: 5rem;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+	background-color: #cf92fd;
+	border: none;
+	width: 100%;
+	height: 5rem;
+}
+
+.filtering-fields {
+	height: fit-content;
+	min-height: 15vh;
+}
